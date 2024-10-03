@@ -1,0 +1,11 @@
+.title-div{
+    margin-bottom: 15px;
+}
+
+.MuiTypography-root{
+    text-align: center;
+}
+
+.account-edit-textfield .MuiInputBase-root{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 70vw;
+}
+
+
+.user-list-container {
+    width: 70vw;
+    height: 10vh;
+}
+
+.message-box-container {
+    height: 60vh;
+    max-height: 60vh;
+}

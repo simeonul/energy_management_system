@@ -1,0 +1,30 @@
+.client-menu {
+    background: linear-gradient(135deg, #3489eb, #2E3192);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-menu .MuiList-root {
+    width: 100%;
+    padding: 0;
+}
+
+.client-menu .MuiListItem-root .MuiTypography-root {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.client-menu .MuiListItem-root:hover {
+    background: #2E3192;
+}

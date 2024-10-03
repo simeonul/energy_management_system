@@ -1,0 +1,29 @@
+.account-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 1;
+    width: 65vw;
+}
+
+
+.account-container .account-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.account-table .MuiTableCell-body {
+    font-size: 16px;
+}
+
+.account-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.account-table tr:nth-child(even) {
+    background-color: #e0e0e0;
+}

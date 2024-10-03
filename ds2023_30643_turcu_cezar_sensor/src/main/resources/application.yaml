@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: ems-sensor
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+device:
+  id: 80a77407-0cb4-424b-9c58-308f50114c2d
+
+

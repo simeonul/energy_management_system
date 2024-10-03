@@ -1,0 +1,11 @@
+.title-div{
+    margin-bottom: 15px;
+}
+
+.MuiTypography-root{
+    text-align: center;
+}
+
+.add-device-dialog-content .MuiInputBase-root{
+    margin-bottom: 10px;
+}

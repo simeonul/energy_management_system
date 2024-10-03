@@ -1,0 +1,46 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 400px;
+    border: 10px solid #ffffff;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 10px 0 20px rgba(10, 20, 70, 0.4);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.login-box .MuiTypography-root {
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.login-box .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: #3489eb;
+}
+
+.login-box .MuiTextField-root .MuiInputBase-input {
+    font-size: 20px;
+    color: black;
+}
+
+
+.login-box .MuiButton-root {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #3489eb, #2E3192);
+    color: white;
+    font-size: 20px;
+}
+

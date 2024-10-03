@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ems-devices
+
+  datasource:
+    url: jdbc:postgresql://devices_db:5432/devices
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+client:
+  users: http://192.168.0.5:8080
